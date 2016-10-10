@@ -1,0 +1,24 @@
+### 数据库连接参数 ###
+IP=10.3.10.1
+PORT=3306
+SID=mccps
+USER=mca
+PASSWD=mca
+DBTABLE=systemconfigdb
+PRODUCTDB=RSProductDB
+
+###系统配置参数###
+
+#公共缓存区配置
+commonProductsPublicBufferLocalPath=/dataIO/863_Project/863-Daemon/MCAPublicBuffer/CommonProductBuffer/
+standardProductsPublicBufferLocalPath=/dataIO/863_Project/863-Daemon/MCAPublicBuffer/StandardProductBuffer/
+dataProductFtpConfig=ftpuser:123456
+
+#日志系统配置
+logPath=/dataIO/863_Project/863-Daemon/MCAlog/
+systemLog4jConfigFile=/home.bak/MCA/Software/apache-tomcat-7.0.55/webapps/MultiProcessSysWebService_Thread//log4j.properties
+outerLog4jConfigFile=/home.bak/MCA/Software/apache-tomcat-7.0.55/webapps/MultiProcessSysWebService_Thread//log4jOuter.properties
+
+#Kepler XML工作流文件存放位置
+KeplerWorkflowFilePath=/dataIO/863_Project/863-Daemon/MCAOrders/KeplerWorkflowFilePath/
+
