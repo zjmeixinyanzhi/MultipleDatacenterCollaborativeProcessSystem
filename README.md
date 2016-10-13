@@ -1,6 +1,6 @@
 ##0、简介
 Multiple Datacenter Collaborative Process System（MDCPS）为多源、海量遥感数据的分布式处理平台，该平台采用主从架构，基于主数据中心（主中心）和分布式的数据中心（子中心）上的分布式任务执行代理框架，实现多数据中心上海量遥感数据的处理。
-详细系统架构参考：http://link.springer.com/article/10.1007%2Fs10586-016-0577-6
+</br>详细系统架构参考：http://link.springer.com/article/10.1007%2Fs10586-016-0577-6
 
 ##1、源码目录结构
 
